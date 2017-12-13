@@ -1,0 +1,36 @@
+
+// Font awesome
+$fa-font-path: "../../../node_modules/font-awesome/fonts" !default;
+
+@import 'node_modules/font-awesome/scss/font-awesome.scss';
+
+//@import 'variables';
+// Materialize scss
+@import "node_modules/materialize-css/sass/materialize";
+
+header,
+main,
+footer {
+  padding-left: 240px;
+}
+
+body {
+  backgroud: white;
+}
+
+@media only screen and (max-width: 992px) {
+  header,
+  main,
+  footer {
+    padding-left: 0;
+  }
+}
+.no-padding {
+	padding: 0px;
+}
+.btn-move-up {
+	position:relative;
+	float:right;
+	bottom:35px;
+	right:10px;
+}
